@@ -1,0 +1,7 @@
+.DS_Store
+target/
+test/out/
+
+# internal notes (local paths, planning): not published
+NOTES.md
+IDEAS.md
