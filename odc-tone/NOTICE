@@ -1,0 +1,8 @@
+ODC Tone
+Copyright 2026 Open Designer Cloud
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The corrective looks (their settings), the tone and colour grading pipeline, Depth (local contrast), Sharpness (unsharp mask)
+and Texture (band-pass) are ported from the Adjust Color tool of HyperImage (BriteWire), the same author
+(renderer/color.js). The box blur and sandbox helpers are shared with ODC Lens and ODC Glow.

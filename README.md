@@ -7,6 +7,7 @@ Free, open source plug-ins for [PhotoCraft](https://opendesignercloud.com), from
 | [ODC Film Look](odc-film-look/) | 11 film looks (Kodachrome, Tri-X, Fuji Superia, bleach bypass and more), grain, vignette, faded blacks, warmth | [Releases](../../releases) |
 | [ODC Lens](odc-lens/) | Soft corners, colour fringes, bloom and halation, barrel distortion, vignette, with 6 lens looks | [Releases](../../releases) |
 | [ODC Glow](odc-glow/) | Orton effect, glamour glow, soft focus, Pro-Mist haze, dreamy haze, golden glow, with 6 looks | [Releases](../../releases) |
+| [ODC Tone](odc-tone/) | Fix the light: Interior / Real Estate, Twilight, Overcast, Backlit, Product on White, Soft Portrait, Clarity Punch, with local contrast, texture and sharpness | [Releases](../../releases) |
 
 ## Install a plug-in
 
@@ -21,8 +22,8 @@ The plug-in interface (ABI v1) is documented in PhotoCraft's `docs/plugins.md`. 
 
 ## Releases
 
-Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0`, `odc-lens-v1.0.0` or `odc-glow-v1.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
+Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0`, `odc-lens-v1.0.0`, `odc-glow-v1.0.0` or `odc-tone-v1.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
 
 ## License
 
-The repository is licensed under the Apache License 2.0 (see `LICENSE`), and each plug-in also carries its own copy and `NOTICE` in its folder (ODC Film Look, ODC Lens and ODC Glow: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
+The repository is licensed under the Apache License 2.0 (see `LICENSE`), and each plug-in also carries its own copy and `NOTICE` in its folder (ODC Film Look, ODC Lens, ODC Glow and ODC Tone: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
