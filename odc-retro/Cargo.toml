@@ -1,0 +1,20 @@
+[package]
+name = "odc-retro"
+description = "ODC Retro: a PhotoCraft WebAssembly filter plug-in (VHS, CRT, glitch, palette dither: Game Boy, 1-bit, CGA, PICO-8)"
+version = "1.0.0"
+edition = "2024"
+license = "Apache-2.0"
+publish = false
+
+# Builds for wasm32-unknown-unknown only; not part of any workspace.
+[workspace]
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

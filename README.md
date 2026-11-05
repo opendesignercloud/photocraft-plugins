@@ -9,6 +9,7 @@ Free, open source plug-ins for [PhotoCraft](https://opendesignercloud.com), from
 | [ODC Glow](odc-glow/) | Orton effect, glamour glow, soft focus, Pro-Mist haze, dreamy haze, golden glow, with 6 looks | [Releases](../../releases) |
 | [ODC Tone](odc-tone/) | Fix the light: Interior / Real Estate, Twilight, Overcast, Backlit, Product on White, Soft Portrait, Clarity Punch, with local contrast, texture and sharpness | [Releases](../../releases) |
 | [ODC Mono](odc-mono/) | Black and white like film: stock colour response, colour filters, toning (sepia, selenium, cyanotype, platinum), grain, with 11 looks | [Releases](../../releases) |
+| [ODC Retro](odc-retro/) | VHS, CRT scanlines, glitch, and pixel art with fixed palettes and ordered dither (Game Boy, 1-bit, CGA, PICO-8, amber terminal), with 8 looks | [Releases](../../releases) |
 
 ## Install a plug-in
 
@@ -23,8 +24,8 @@ The plug-in interface (ABI v1) is documented in PhotoCraft's `docs/plugins.md`. 
 
 ## Releases
 
-Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0`, `odc-lens-v1.0.0`, `odc-glow-v1.0.0`, `odc-tone-v1.0.0` or `odc-mono-v1.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
+Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0`, `odc-lens-v1.0.0`, `odc-glow-v1.0.0`, `odc-tone-v1.0.0`, `odc-mono-v1.0.0` or `odc-retro-v1.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
 
 ## License
 
-The repository is licensed under the Apache License 2.0 (see `LICENSE`), and each plug-in also carries its own copy and `NOTICE` in its folder (ODC Film Look, ODC Lens, ODC Glow, ODC Tone and ODC Mono: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
+The repository is licensed under the Apache License 2.0 (see `LICENSE`), and each plug-in also carries its own copy and `NOTICE` in its folder (ODC Film Look, ODC Lens, ODC Glow, ODC Tone, ODC Mono and ODC Retro: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).

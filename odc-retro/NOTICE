@@ -1,0 +1,7 @@
+ODC Retro
+Copyright 2026 Open Designer Cloud
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The palettes are the well-known colour sets of the Game Boy, CGA, PICO-8 and amber/green phosphor terminals. The ordered
+dither is the classic 8 x 8 Bayer matrix. The hash noise and sandbox helpers are shared with ODC Film Look (same author).
