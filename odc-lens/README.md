@@ -91,4 +91,4 @@ python3 test/test_lens.py                   # needs node, numpy, Pillow and phot
 
 ## License
 
-Apache License 2.0 (see `LICENSE` and `NOTICE`).
+Apache License 2.0 (see `LICENSE` and `NOTICE`). Contributions welcome; unless you say otherwise, a contribution you submit is licensed under the same terms.

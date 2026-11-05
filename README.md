@@ -25,4 +25,4 @@ Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0`, `odc
 
 ## License
 
-Each plug-in carries its own license in its folder (ODC Film Look, ODC Lens and ODC Glow: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
+The repository is licensed under the Apache License 2.0 (see `LICENSE`), and each plug-in also carries its own copy and `NOTICE` in its folder (ODC Film Look, ODC Lens and ODC Glow: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
