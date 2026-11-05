@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches: [main]
-    tags: ['odc-film-look-v*']
+    tags: ['odc-film-look-v*', 'odc-lens-v*']
   pull_request:
 
 permissions:
@@ -31,5 +31,29 @@ jobs:
         run: >
           gh release create "$GITHUB_REF_NAME" odc-film-look/dist/odc-film-look.wasm
           --title "ODC Film Look ${GITHUB_REF_NAME#odc-film-look-v}" --generate-notes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  odc-lens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rust with the WebAssembly target
+        run: |
+          rustup update stable
+          rustup target add wasm32-unknown-unknown
+      - name: Build
+        run: ./build.sh
+        working-directory: odc-lens
+      - uses: actions/upload-artifact@v4
+        with:
+          name: odc-lens.wasm
+          path: odc-lens/dist/odc-lens.wasm
+      # A tag such as odc-lens-v1.0.0 publishes a GitHub Release with the .wasm attached.
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/odc-lens-v')
+        run: >
+          gh release create "$GITHUB_REF_NAME" odc-lens/dist/odc-lens.wasm
+          --title "ODC Lens ${GITHUB_REF_NAME#odc-lens-v}" --generate-notes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

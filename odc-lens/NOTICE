@@ -1,0 +1,7 @@
+ODC Lens
+Copyright 2026 Open Designer Cloud
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The effects, their order, parameters and the six looks are ported from the Lens tool of HyperImage
+(BriteWire), the same author (renderer/lens.js).

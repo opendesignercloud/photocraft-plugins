@@ -5,6 +5,7 @@ Free, open source plug-ins for [PhotoCraft](https://opendesignercloud.com), from
 | Plug-in | What it does | Download |
 |---|---|---|
 | [ODC Film Look](odc-film-look/) | 11 film looks (Kodachrome, Tri-X, Fuji Superia, bleach bypass and more), grain, vignette, faded blacks, warmth | [Releases](../../releases) |
+| [ODC Lens](odc-lens/) | Soft corners, colour fringes, bloom and halation, barrel distortion, vignette, with 6 lens looks | [Releases](../../releases) |
 
 ## Install a plug-in
 
@@ -19,8 +20,8 @@ The plug-in interface (ABI v1) is documented in PhotoCraft's `docs/plugins.md`. 
 
 ## Releases
 
-Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
+Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0` or `odc-lens-v1.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
 
 ## License
 
-Each plug-in carries its own license in its folder (ODC Film Look: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
+Each plug-in carries its own license in its folder (ODC Film Look and ODC Lens: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).
