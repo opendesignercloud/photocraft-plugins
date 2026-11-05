@@ -1,0 +1,8 @@
+ODC Mono
+Copyright 2026 Open Designer Cloud
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The Tri-X and T-Max tone curves are the ones of the Tri-X and Kodak T-Max looks of HyperImage (BriteWire), the same author
+(renderer/color.js), taken from Nikon Picture Control files published on nikonpc.com. The grain, vignette and tone pipeline
+come from ODC Film Look (same author). The film-stock channel weights are approximations written for this plug-in.

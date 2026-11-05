@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches: [main]
-    tags: ['odc-film-look-v*', 'odc-lens-v*', 'odc-glow-v*', 'odc-tone-v*']
+    tags: ['odc-film-look-v*', 'odc-lens-v*', 'odc-glow-v*', 'odc-tone-v*', 'odc-mono-v*']
   pull_request:
 
 permissions:
@@ -103,5 +103,29 @@ jobs:
         run: >
           gh release create "$GITHUB_REF_NAME" odc-tone/dist/odc-tone.wasm
           --title "ODC Tone ${GITHUB_REF_NAME#odc-tone-v}" --generate-notes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  odc-mono:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rust with the WebAssembly target
+        run: |
+          rustup update stable
+          rustup target add wasm32-unknown-unknown
+      - name: Build
+        run: ./build.sh
+        working-directory: odc-mono
+      - uses: actions/upload-artifact@v4
+        with:
+          name: odc-mono.wasm
+          path: odc-mono/dist/odc-mono.wasm
+      # A tag such as odc-mono-v1.0.0 publishes a GitHub Release with the .wasm attached.
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/odc-mono-v')
+        run: >
+          gh release create "$GITHUB_REF_NAME" odc-mono/dist/odc-mono.wasm
+          --title "ODC Mono ${GITHUB_REF_NAME#odc-mono-v}" --generate-notes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
