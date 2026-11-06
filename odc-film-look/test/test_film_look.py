@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 """End-to-end tests for ODC Film Look through photocraft-cli (headless PhotoCraft).
 Run ./build.sh first, then: python3 test/test_film_look.py [path/to/photo.jpg]
 Checks the maths against a reference computed here in numpy, determinism, the grain strength and

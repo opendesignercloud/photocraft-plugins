@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 // Reference for the tests: the blur, geometry, softness, bloom and vignette passes of HyperImage's Lens tool,
 // copied verbatim (BriteWire, renderer/lens.js lines 50-246), wrapped so they run on a list of pixels.
 // usage: node reference.js < in.json > out.json

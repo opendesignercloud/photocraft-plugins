@@ -26,6 +26,16 @@ The plug-in interface (ABI v1) is documented in PhotoCraft's `docs/plugins.md`. 
 
 Each plug-in is versioned on its own: a tag such as `odc-film-look-v2.0.0`, `odc-lens-v1.0.0`, `odc-glow-v1.0.0`, `odc-tone-v1.0.0`, `odc-mono-v1.0.0` or `odc-retro-v1.0.0` builds the plug-in on GitHub and publishes a release with the `.wasm` attached.
 
+## Credit and redistribution
+
+These plug-ins are copyright 2026 Open Designer Cloud and released under the Apache License 2.0. You can use, modify and redistribute them, including in commercial products, as long as you follow the license. In particular, when you redistribute the source or a modified version you must:
+
+- keep the `LICENSE` file and the `NOTICE` file,
+- keep the copyright and attribution notices in the source files,
+- state any changes you made to the files.
+
+Copying the code, changing the name and removing these notices does not meet the license. If you spot a copy that does not give credit, please [tell us](https://opendesignercloud.com/contact).
+
 ## License
 
 The repository is licensed under the Apache License 2.0 (see `LICENSE`), and each plug-in also carries its own copy and `NOTICE` in its folder (ODC Film Look, ODC Lens, ODC Glow, ODC Tone, ODC Mono and ODC Retro: Apache License 2.0). Example photos are from Open Designer Cloud Stock Photos, https://opendesignercloud.com/stock/photos/ (royalty free).

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 // Reference for the tests: the tone and colour grading of HyperImage's Adjust Color tool (as in odc-film-look/test/reference.js),
 // followed by Depth, Sharpness (unsharp mask) and Texture copied verbatim from renderer/color.js (BriteWire), on a whole image.
 // The grading result is clamped to 0..255 before the spatial passes (HyperImage's 8-bit path; the plug-in does the same).

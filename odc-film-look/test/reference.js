@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 // Reference for the tests: the tone and color pipeline of HyperImage's Adjust Color tool, copied verbatim
 // (BriteWire, renderer/color.js and renderer/curves.js) and wrapped so it can run on a list of pixels.
 // Only the 16-bit (float) path is used, which is the same maths without the 8-bit rounding.

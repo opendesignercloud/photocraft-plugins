@@ -1,5 +1,6 @@
 #!/bin/sh
 # SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 # Builds ODC Glow and copies the module to dist/odc-glow.wasm.
 # Needs the wasm target once: rustup target add wasm32-unknown-unknown
 set -eu

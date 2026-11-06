@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 """End-to-end tests for ODC Tone through photocraft-cli (headless PhotoCraft).
 Run ./build.sh first, then: python3 test/test_tone.py [path/to/photo.jpg]
 

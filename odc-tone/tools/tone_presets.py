@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Open Designer Cloud. Licensed under the Apache License, Version 2.0 (see LICENSE).
 """Manage your own ODC Tone presets, and apply any preset to a file.
 
 PhotoCraft plug-ins run in a sandbox with no storage, and the plug-in dialog has no preset menu (yet), so presets live
